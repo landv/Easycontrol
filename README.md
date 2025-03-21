@@ -41,6 +41,14 @@
 如果您想要自己构建，请注意以下几项
 - 请遵循本项目的开源协议
 - 我去除了官方打包加入的激活模块相关的代码文件，所以会有报错，请自行注释掉报错代码即可
+	编译方法
+	cd server
+	..\gradlew.bat build
+	..\gradlew.bat copyRelease 
+
+	cd app
+	..\gradlew.bat build
+
 
 ## 反馈
 请在Github或Gitee提出Issue，或进入易控反馈群反馈BUG或建议。
